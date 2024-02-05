@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Carousel Component</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="carousel">
+      <div class="slide slide--1">
+        <img src="customer3.jpg" alt="Maria de Almeida" />
+        <blockquote class="testimonial">
+          <p class="testimonial-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste non
+            iusto similique atque eveniet sit debitis quo aperiam cumque
+            repellendus.
+          </p>
+          <p class="testimonial-author">Maria de Almeida</p>
+          <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+        </blockquote>
+      </div>
+
+      <div class="slide slide--2">
+        <img src="customer.jpg" alt="David Blaine" />
+        <blockquote class="testimonial">
+          <p class="testimonial-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste non
+            iusto similique atque eveniet sit debitis quo aperiam cumque
+            repellendus voluptates.
+          </p>
+          <p class="testimonial-author">David Blaine</p>
+          <p class="testimonial-job">Manager at TinyCorp Industrial Design</p>
+        </blockquote>
+      </div>
+
+      <div class="slide slide--3">
+        <img src="customer2.jpg" alt="Sara Sanchez" />
+        <blockquote class="testimonial">
+          <p class="testimonial-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste non
+            iusto eveniet sit debitis quo aperiam cumque repellendus voluptates
+            saepe impedit.
+          </p>
+          <p class="testimonial-author">Sara Sanchez</p>
+          <p class="testimonial-job">Product Manager at TVA Commercial</p>
+        </blockquote>
+      </div>
+
+      <button class="btn btn-left">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M15.75 19.5L8.25 12l7.5-7.5"
+          />
+        </svg>
+      </button>
+      <button class="btn btn-right">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="btn-icon"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M8.25 4.5l7.5 7.5-7.5 7.5"
+          />
+        </svg>
+      </button>
+      <div class="dots">
+        <!-- <button class="dot"></button>
+        <button class="dot"></button>
+        <button class="dot"></button> -->
+      </div>
+    </div>
+  </body>
+</html>
