@@ -1,0 +1,1 @@
+# Vanilla JS Carousel Component
